@@ -1,7 +1,7 @@
 
 Simple blockchain implementation written in Go (Go version 1.10).
 
-Note: This is not a "real" blockchain yet as it is just an array of blocks.
+Dependency: bolt DB - https://github.com/boltdb/bolt
 
 To run, execute `go run src/*.go`
 
