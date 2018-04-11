@@ -23,8 +23,8 @@ func (cli *CLI) validateArgs() {
 
 func (cli *CLI) printUsage() {
 	fmt.Println("CLI usage:")
-	fmt.Println(" addBlock -data BLOCK_DATA -> add a block to the blockchain")
-	fmt.Println(" printChain -> print all blocks of the blockchain")
+	fmt.Println(" addBlock -data BLOCK_DATA   -> add a block to the blockchain")
+	fmt.Println(" printChain                  -> print all blocks of the blockchain")
 }
 
 func (cli *CLI) addBlock(data string) {
